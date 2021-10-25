@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>glowe{Dr Grace Lowe}</title>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!-- New Bootstrap icons style sheet -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> -->
+  <!-- My Font Awesome style Sheet -->
+  <script src="https://kit.fontawesome.com/1164e86d2e.js" crossorigin="anonymous"></script>
+  <!-- My custom style sheet goes last so that it is applied last -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <section class="darkBG" id="landing">
+    <div class="container-fluid">
+      <!-- Nav Bar & logo -->
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand logo">
+          <img class="glogo" src="images/mainlogo.svg" alt="glowe">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger" aria-controls="hamburger" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="hamburger">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#landing">Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sci-portfolio">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prog-portfolio">Programming</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">...</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- About me landing page with images -->
+    <div class="row">
+      <div class="col-lg-8 col-m-6">
+        <div class="container-fluid">
+          <h1>Electrochemist, programmer, & problem solver</h1>
+          <p>
+            Hi I'm Grace. I just spent 7 years researching materials and systems for energy storage. Now I am up-skilling to address energy and sustainability challenges with a new set of tools: smart technology, big data, and
+            machine learning. In the meantime I am looking for new challenges in software development and data science to build my programming portfolio. If you have a programming challenge or a chemistry problem you think I can help with, press the
+            relevant button below. I look forwards to hearing from you.
+          </p>
+          <!-- The following buttons will link to upwork or forms later -->
+          <button type="button" class="cta-btn w-30 btn btn-light btn-lg" disabled>Programming</button>
+          <button type="button" class="cta-btn w-30 btn btn-outline-light btn-lg" disabled>Science</button>
+        </div>
+      </div>
+      <div class="img-col col-lg-4 col-m-6">
+        <img class="title-img" src="images/me_fwd_blktshirt_noBG.png" alt="Grace Lowe" />
+      </div>
+    </div>
+  </section>
+  <!-- call to action page for if I go onto upwork -->
+  <!-- <section class="lightBG container-fluid" id="cta">
+    <div class="container-fluid">
+      <h2> Do you need a new webpage?</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Coming Soon...</h3>
+              <h2>Freelance on Upwork</h2>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Website glow-ups with CSS and html
+                </li>
+                <li class="list-group-item">
+                  Scientific Proof-reading: articles, proposals, & outreach materials
+                </li>
+              </ul>
+              <button class="cta-btn w-100 btn btn-lg btn-outline-dark" type="button" href="">Upwork</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section> -->
+  <!-- Portfolios -->
+  <section class="lightBG" id="sci-portfolio">
+    <div class="container-fluid">
+      <h1>Portfolios</h1>
+    </div>
+    <div class="container-fluid">
+      <h2>Research</h2>
+      <div id="sci-carousel" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-interval="false">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-block w-100">
+              <img src="images/reactor.jpg" class="sci-img" alt="photo-reactor" />
+            </div>
+            <div class="carousel-caption md-block">
+              <h3>Photo-reactor Construction for Solar Fuels</h3>
+                <em>University of Paris, France (2020-2021)</em>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-block w-100 sci-box">
+                <img src="images/rfb.png" class="sci-img" alt="redox flow battery" />
+              </div>
+              <div class="md-block">
+                <h3>Non-aqueous Redox Flow Batteries</h3>
+                  <em>University of Nottingham (2014-2018) and Ulm University (2018-2020)</em>
+              </div>
+              </div>
+              <!-- <div class="carousel-item">
+                <h3>Photo-chargable Molecules</h3>
+                <p>
+                  image ofJACS paper project and maybe one sentence
+                  </p>
+                  <em>Ulm University, Germany (2018-2020)</em>
+                </div> -->
+                <div class="carousel-item">
+                  <div class="d-block w-100">
+                    <img src="images/photocell.jpg" class="sci-img" alt="photo-cell" />
+                  </div>
+                  <div class="md-block">
+                    <h3>Photo-electrodes for water-splitting</h3>
+                      <em>Ulm University & FSU Jena, Germany (2018-2020)</em>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="d-block w-100">
+                      <img src="images/pomswntpic.png" class="sci-img" alt="POMs in nanotubes" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.201904182" />
+                    </div>
+                    <div class="md-block">
+                      <h3>Charging Molecules inside Nanotubes</h3>
+                      <p>
+                        Images adapted from <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.201904182"><i>J. Jordan et al.</i>Advanced Materials 2019 page 1904182</a>
+                      </p>
+                        <em>University of Nottingham, UK (2017-2018)</em>
+                    </div>
+                    </div>
+          </div>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#sci-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#sci-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#sci-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#sci-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+        <a class="carousel-control-prev" href="#sci-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#sci-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="lightBG" id="prog-portfolio">
+    <div class="container-fluid">
+      <h2>Programming</h2>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Python</h3>
+              <p class="card-text">
+                Python is currently my go-to language. I have used to it program a tkinter arduino GUI, calculate basic mass balances for a plug flow reactor, and very simple simulations of voltammograms. I am currently using python with ApacheSpark in Watson for the IBM Advanced Data Science Certification.
+                </p>
+              <em class=xp-label>intermediate</em>
+              <img class="xp-bar" src="images/xpbar3.svg" alt-text="XP bar intermediate" >
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Machine Learning/AI</h3>
+              <p class="card-text">
+                I have been exploring regression and neural networks with GNU Octave. I will soon progress to more advanced topics with Octave and Python.
+                </p>
+                <em class=xp-label>Beginner</em>
+                <img class="xp-bar" src="images/xpbar2.svg" alt-text="XP bar intermediate" >
+
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">R</h3>
+              <p class="card-text">
+                R was my first programming language. I used it to analyse and plot experimental data such as Raman spectra and volammograms.
+                </p>
+                <em class=xp-label>intermediate</em>
+                <img class="xp-bar" src="images/xpbar3.svg" alt-text="XP bar intermediate" >
+
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Arduino/C++</h3>
+              <p class="card-text">
+                I used arduino micro-controllers for a syringe pump and photo-reactor temperature control. I have also combined C++ and python with pyserial to control an arduino using a tkinter GUI.
+                </p>
+                <em class=xp-label>intermediate</em>
+                <img class="xp-bar" src="images/xpbar3.svg" alt-text="XP bar intermediate" >
+
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Dart/Flutter</h3>
+              <p class="card-text">
+                I recently began playing with Dart and the flutter package to make mobile applications with the aim of programming educational games.
+                </p>
+                <em class=xp-label>Beginner</em>
+                <img class="xp-bar" src="images/xpbar2.svg" alt-text="XP bar intermediate" >
+
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Web Design HTML & CSS</h3>
+              <p class="card-text">
+                I have been learning web design with the online AppBrewery course and this website is a good demonstration of my progress. I put this site together using html, CSS and Bootstrap. JavaScript functionality should follow soon.
+                </p>
+                <em class=xp-label>intermediate</em>
+                <img class="xp-bar" src="images/xpbar3.svg" alt-text="XP bar intermediate" >
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<!-- footer with contact details -->
+<foot id="footer">
+  <div class="container-fluid darkBG">
+    <div>
+      <a class="ifoot fab fa-twitter fa-2x" href="https://twitter.com/glo_we"></a>
+      <a class="ifoot far fa-envelope fa-2x" href=""></a>
+      <a class="ifoot fab fa-linkedin fa-2x" href="https://www.linkedin.com/in/grace-lowe-ec/"></a>
+    </div>
+    <p>
+      © Copyright 2021 Grace Lowe
+    </p>
+  </div>
+</foot>
+
+</html>

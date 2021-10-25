@@ -1,0 +1,121 @@
+/* general */
+body{
+  background-color:#C5D7BD;
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+section{
+  margin:0;
+  padding:0 50px;
+}
+.darkBG{
+  background-color:#00204A;
+  color:#FFF;
+}
+.lightBG{
+  background-color:#C5D7BD;
+  color:#222831;
+}
+
+/* text */
+p{font-family:'Montserrat';}
+h1, h2, h3{font-family:'Roboto Slab';}
+h1{font-size: 3rem;
+  padding: 25px 0;
+}
+h2{font-size: 2.5rem;
+  padding: 20px 0;
+}
+p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding:50px 0;
+  margin:0;
+}
+.card{
+  color:#222831;
+  margin: 10px;
+}
+
+/* containers */
+.container-fluid{
+  margin: 0;
+}
+/* .card{
+  padding: 10px;
+  margin: 10px;
+} */
+/* buttons */
+.cta-btn{
+  margin: 5% 3% 5% 0;
+}
+/* Navbar */
+.navbar{
+  padding:0 0 2rem 0;
+  /* zero padding for text alignment */
+}
+.navbar-brand{
+  font-family:'Ubuntu';
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.5rem;
+}
+.nav-link{
+  font-size: 1.7rem;
+  font-weight: 350;
+}
+/* landing page section */
+#landing{
+  text-align:left;
+  padding:0 50px 0 0;
+}
+.glogo{
+  width:50%;
+  height:50%;
+  padding: 0px;
+}
+/* insert screen query to optimise logo size */
+.img-col{
+  text-align:center;
+  padding-right:0;
+}
+.title-img{
+  width: 90%;
+  height: 100%;
+  border-radius: 20%;
+  object-fit: contain;
+}
+/* call to action section */
+/* portfolios */
+.carousel-control-prev, .carousel-control-next{
+  margin: 10px;
+}
+.sci-img{
+  height: 50%;
+  width: 50%;
+}
+/* #sci-carousel>card{
+  margin: 20px 100px;
+} */
+/* programming portfolio */
+.xp-label{
+  display:block;
+  color:#00204A;
+  line-height: 1.2;
+}
+.xp-bar{
+  width: 7rem;
+  height: 4rem;
+}
+/* footer section */
+.ifoot{
+  text-decoration: none;
+  color: #FFF;
+  padding:25px 15px 0;
+}
+.ifoot:hover{
+  color: #FD5F00;
+}
