@@ -55,10 +55,7 @@ p{
   padding:0 0 2rem 0;
   /* zero padding for text alignment */
 }
-.navbar-brand{
-  font-family:'Ubuntu';
-  font-size: 2.5rem;
-}
+
 .nav-item{
   padding: 0 18px;
   font-size: 1.5rem;
@@ -67,17 +64,17 @@ p{
   font-size: 1.7rem;
   font-weight: 350;
 }
+.glogo{
+  width:15rem;
+  padding: 0px;
+}
+
+}
 /* landing page section */
 #landing{
   text-align:left;
   padding:0 50px 0 0;
 }
-.glogo{
-  width:50%;
-  height:50%;
-  padding: 0px;
-}
-/* insert screen query to optimise logo size */
 .img-col{
   text-align:center;
   padding-right:0;
@@ -93,14 +90,20 @@ p{
 .carousel-control-prev, .carousel-control-next{
   margin: 10px;
 }
-.sci-img{
-  height: 50%;
-  width: 50%;
+.carousel-caption p{
+  padding: 0 0;
 }
-/* #sci-carousel>card{
-  margin: 20px 100px;
-} */
+
+.sci-img{
+  /* height: 50rem; */
+  height: 20rem;
+  margin: 0 auto 10rem;
+}
+
 /* programming portfolio */
+.card{
+  height:95%;
+}
 .xp-label{
   display:block;
   color:#00204A;
@@ -118,4 +121,15 @@ p{
 }
 .ifoot:hover{
   color: #FD5F00;
+}
+/* media queries */
+@media(max-width:740px){
+  .sci-img{
+    width: 30rem;
+    height:auto;
+    margin:auto auto;
+  }
+  .carousel-inner{
+    height: 50rem;
+  }
 }
