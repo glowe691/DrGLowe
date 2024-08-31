@@ -36,16 +36,17 @@ p{
 .card{
   color:#222831;
   margin: 10px;
+  height:95%;
 }
 
 /* containers */
 .container-fluid{
   margin: 0;
 }
-/* .card{
-  padding: 10px;
-  margin: 10px;
-} */
+.custom-card-body{
+  margin: 5% 15% 5% 15%;
+  height:550px;
+}
 /* buttons */
 .cta-btn{
   margin: 5% 3% 5% 0;
@@ -101,9 +102,6 @@ p{
 }
 
 /* programming portfolio */
-.card{
-  height:95%;
-}
 .xp-label{
   display:block;
   color:#00204A;
